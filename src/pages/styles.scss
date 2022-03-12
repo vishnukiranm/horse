@@ -1,0 +1,142 @@
+
+ .box{
+     min-height: 1em;
+    max-height: 3em;
+}
+.container{
+    // height: "30em",
+    // width: "80%";
+    // background: "#fff";
+    // position: "re    lative";
+    //  margin-top: "7em";
+    // margin-bottom: "3em";
+    // top: "33%";
+    // bottom: "20%";
+    left: "10%";
+    // boxShadow: "0px 1px 10px  1px #605B2B";
+    border-radius: "4px";
+    // padding: "3em";
+
+}
+@media only screen and (max-width: 600px) {
+    .jumbotron{
+        height: 10em;
+        padding: 1em;
+    }
+    .jumbotron  h1{
+    
+        font-size: 22px;
+    }
+    .container {
+      background-color: rgb(255, 255, 255);
+      align-items: center;
+      border: none;
+      justify-content: center;
+    }
+    .container input{
+        width: 240px;
+    }
+    .container small{
+        font-size: 10px;
+        justify-content: center;
+        text-align: center;
+    }
+  }
+
+ 
+
+  .cls1
+{
+    padding: 6.5px;
+    color:#fff;
+    font-weight: bold;
+}
+a{
+    margin: 3px;
+}
+.cls2
+{
+    font-size: xx-small;
+}
+.cls3
+{
+    background-color: black;
+}
+.cls4
+{
+    padding: 1px;
+    
+    
+}
+.cls5
+{
+    height: 45px;
+    
+    
+}
+.cls6
+{
+border-left:2px;
+}
+.cls7{
+    font-weight: 600;
+     padding-top: 5%;
+     padding-left: 3%;
+     padding-right: 3%;
+   
+}
+
+
+.cls8
+{
+    padding-bottom: 2%;
+    color:black;
+    font-weight: 800;
+    
+    
+}
+
+.cls10
+{
+    // margin-top: 50%;
+    background-color: black;
+    padding-top: 3%;
+    
+}
+.cls11
+{
+    font-weight: bold;
+}
+.cls12
+{
+    margin-bottom: 0px;
+}
+
+
+.card-text{
+    font-size:12px
+}
+.line{
+    width: 80px;
+    height:5px;
+    background-color:rgb(7, 24, 125);
+    border-radius: 10px;
+}
+.other-navbar {
+    background-color: black;
+    z-index: 1;
+    overflow: auto;
+    top: 0px;
+    margin: 0;
+    margin-bottom: 40px;
+    left: 0px;
+    width: 100%;
+    position: sticky;
+}
+.fleet-card-text{
+    font-size: 12px;
+    font-weight: 400;
+}
+.fleet-card{
+    // height:17em
+}

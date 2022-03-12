@@ -1,0 +1,171 @@
+@import '../node_modules/bootstrap/scss/functions';
+@import '../node_modules/bootstrap/scss/variables';
+
+$enable-responsive-font-sizes:true;
+
+$font-size-base: 1rem;
+$h2-font-size: 2rem;
+
+.demo{
+    color: rgb(230, 178, 10);
+}
+.tracking-card{
+    background: rgb(247, 244, 244);
+    box-shadow: 0px 0px 8px #c7c3c3;
+    border-radius: 7px;
+}
+@media (max-width: 978px) {
+    .container {
+      padding:0;
+      margin:0;
+    }
+
+    body {
+      padding:0;
+    }
+
+    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom:0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .form-control{
+    width: 244px;
+  }
+  
+}
+.custom-style-nav{
+  color: white;
+  // background-color: #ffffff;
+}
+.payment-card{
+  padding: "10px";
+  background-color: rgb(245, 245, 245);
+  border-radius: 9px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #313950;
+  color: white;
+  // padding: 12px;
+  margin: 10px 0;
+  border: none;
+  // width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+.payment-summary{
+  background-color: #eeeff1;
+}
+.btn:hover {
+  background-color: #1b2544;
+  color: white;
+}
+
+.route-card{
+  // max-height: 130px;
+  padding: 2em;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border-radius: 0.5em;
+  border: 1px solid  rgb(236, 230, 230);
+}
+.dashed-spacer{
+  max-width: 240px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  border: 1px dashed rgb(57, 167, 30) ;
+  height: 1px;
+  // background-color: red;
+}
+.fcontainer{
+  margin: 0%;
+  align-items: center;
+  justify-content: space-around;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+.footer-a{
+  color: white;
+}
+.footer-a a{
+  color: white;
+
+}
+.book-trip-btn{
+  width: 140px;
+  border:1px solid white
+}
+.oth-navbar{
+  background-color:black
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  color: white;
+}

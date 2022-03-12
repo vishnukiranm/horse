@@ -1,0 +1,116 @@
+.jumbotronb {
+    width: 334px;
+    // margin-left:10px;
+
+    min-height: 320px;
+    max-height: 320px;
+    padding:2em;
+    margin:1em;
+    border: 1px solid rgb(228, 221, 221);
+    // background-color:#e9ecef;
+}
+    
+.gallery-img{
+    max-height:24em;
+    min-height: 24em;
+}
+.nav{
+    background-color:black;
+    z-index: 1;
+    overflow: auto;
+    top: 0px;
+    margin:0;
+    margin-bottom: 40px;
+    left: 0px;
+    // opacity: 0.4;
+    width: 100%;
+// box-shadow:1px 2px 3px 2px rgb(19, 19, 19);
+    position:fixed;
+}
+.header{
+    // height:30em;    
+    background-position: center;
+    background-size:cover;
+    height: 39em;
+    background-image: url('../assets/bgg.jpg');
+    background-repeat: no-repeat;
+    margin-bottom: 2%;
+
+
+
+}
+.jumbotronc {
+    // width: 334px;
+    // margin-left:10px;
+
+    min-height: 260px;
+    // max-height: 320px;
+    padding:2em;
+    // margin:1em;
+    background-color:#e9ecef;
+}
+@media only screen and (max-width: 600px){
+
+    .jumbotronb{
+        overflow: hidden;
+         min-height: 340px;
+        height: 320px;
+
+    // max-height:290px;
+    width: 100%;
+    margin-left:0px;
+    padding:2em;
+    // margin:1em;
+    // backg    round-color:#e9ecef;
+    }
+    .card-img{
+        display:none
+    }
+    .jumbotronc {
+        // width: 334px;
+        // margin-left:10px;
+    
+        min-height: 260px;
+        max-height: 320px;
+        // padding:2em;
+        margin:1em;
+        // background-color:#e9ecef;
+    }
+    .abt{
+        background-color:rgb(96, 60, 60)
+    }
+
+.header{
+    height:27em;    
+    background-color: "rgba(0, 0, 0, 0.6)";
+    background-position: "center 10%";
+
+    background-image: url('../assets/bgg.jpg');
+    background-blend-mode: "multiply",  
+
+
+}
+
+.gallery-img{
+    max-height:13em;
+    min-height: 13em;
+    margin: 0px;
+}
+}
+.home-nav{
+    background-color:transparent
+}
+.home-navbar{
+    background-color:transparent;
+}
+
+.nav-link {
+    color:rgb(0, 0, 0)
+}
+.snd-of{
+    background-color:#f6e80c;
+    color: black;
+}
+.review-text{
+    font-size:11px
+}
